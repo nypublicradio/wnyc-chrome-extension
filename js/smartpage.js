@@ -110,7 +110,4 @@ $("#current-location").on("click", function() {
 
 $(document).ready(function() {
     startTime();
-    getQuote();
-    getTrend();
-    weatherCheck();
 });
