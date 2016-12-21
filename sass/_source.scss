@@ -1,0 +1,27 @@
+#sources {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a.sources {
+  color: $color_1;
+  border-bottom: 1px solid rgba(18, 140, 244, 0);
+  transition: border-color 250ms, color 250ms;
+  word-wrap: break-word;
+  &:hover {
+    color: $color_1;
+    text-decoration: underline;
+  }
+}
+.source {
+  a {
+    &:link {
+      color: $color_2;
+      text-decoration: none;
+    }
+    &:visited {
+      color: $color_2;
+      text-decoration: none;
+    }
+  }
+}
