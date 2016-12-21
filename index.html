@@ -1,65 +1,56 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>WNYC_TEST</title>
-        <link rel="apple-touch-icon" sizes="120x120" href="img/apple-touch-icon.png">
-        <link rel="icon" type="img/png" href="img/favicon-32x32.png" sizes="32x32">
-        <link rel="icon" type="img/png" href="img/favicon-16x16.png" sizes="16x16">
-        <!-- <link rel="manifest" href="img/manifest.json"> -->
-        <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5">
-        <meta name="theme-color" content="#ffffff">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WNYC CHROME TAB_TEST</title>
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="css/style.css" media="screen" charset="utf-8">
+</head>
 
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-        <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
-        <link rel="stylesheet" href="icons.css" media="screen" charset="utf-8">
-    </head>
-    <body>
-        <main>
-            <div class="col-md-12 text-center">
-                <section class="top-section">
-                    <div id="topStories">Democrats Fail to Make Gains<br> in NY State and Federal Races</div>
-                    <div id="source">from WNYC news</div>
-                    <div class="wrapper">
-                         <button class="button">
-                            Listen Live
-                         </button>
+<body>
+    <div class="main">
+        <section class="main-section">
+            <div id="header1">
+              <a class="top-title" href="http://www.wnyc.org/story/rebels-agree-leave-last-strongholds-aleppo-amidst-civilian-deaths-outrage/">Rebels to Leave Last Strongholds in Aleppo Amidst Civilian Deaths Outrage</a>
+            </div>
+            <div id="middle-container1">
+                <div id="left-arrow">
+                    <a class="previous" href="top-stories.html"></a>
+                </div>
+                <div class="middle-wrapper">
+                    <div id="sources"><a class="sources" href="http://www.wnyc.org/shows/bl"> from The Brian Lehrer Show</a>
                     </div>
-
-                </section>
-            </div>
-
-            <div class="row">
-                <div class="col-md-6">
-                    <section id="logo-section" class="bottom-section"> <!--   previously twitter-section -->
-
-
-                     <!--    <h4>logo here</h> -->
-                     <img src="/../img/wnyclogo.png" alt="Logo" style="width:124px;height:30px;">
-                    </section>
+                    <a href="http://www.wnyc.org/story/rebels-agree-leave-last-strongholds-aleppo-amidst-civilian-deaths-outrage/">
+                        <button class="button">
+                            <svg width="9px" height="10.93px" fill="#fff" viewBox="2 1 20 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="icon icon--play">
+                                <polygon id="play" stroke="none" fill-rule="evenodd" transform="translate(11.777778, 12.785326) rotate(90.000000) translate(-11.777778, -12.785326) " points="11.7777778 3.00754831 22.5631039 22.5631039 0.992451691 22.5631039"></polygon>
+                            </svg>
+                            Listen <span class="text--small">now</span>
+                        </button>
+                    </a>
                 </div>
-
-                <div class="col-md-6">
-                    <section id="weather-section" class="bottom-section text-center">
-                        <div id="time"></div> 
-                        <div id="date"></div>
-                       <!--  <form>
-                            <input name="zipcode" value="" type="text" class="custom-input" placeholder="Enter zip code for and press enter to view weather" />
-                            <input type="submit" class="hidden" value="" />
-                        </form> -->
-                        <div></div>
-                    </section>
-                    <!-- <button id="clear-zip" class="bottom-buttons">Change Location</button>
-                    <button id="current-location" class="bottom-buttons">Use Current Location</button> -->
+                <div id="right-arrow">
+                    <a class="next" href="top-stories.html"></a>
                 </div>
             </div>
-        </main>
+            <div class="notice1"> <b>Don't miss </b> : Tracey Ulman is coming up on the The Leopard Leopate Show </div>
+        </section>
+    </div>
+    <div class="bottom-section">
+        <section id="logo-section" class="bottom-section">
+            <a href="http://www.wnyc.org/?play=wnyc-fm939" target="_blank"><img src="/../img/wnyclogo.png" alt="Logo" style="width:124px;height:30px;">
+            </a>
+        </section>
+        <section id="time-section" class="bottom-section">
+            <div id="time"></div>
+            <div id="date"></div>
+        </section>
+    </div>
+    <script src="src/jquery.min.js"></script>
+    <script type="text/javascript" src="src/smartpage.js"></script>
+</body>
 
-        <script src="js/jquery.min.js"></script>
-        <script type="text/javascript" src="js/jquery.simpleWeather.min.js"></script>
-        <script type="text/javascript" src="js/smartpage.js"></script>
-    </body>
 </html>

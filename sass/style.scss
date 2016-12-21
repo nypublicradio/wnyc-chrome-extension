@@ -1,0 +1,50 @@
+@import 'base';
+@import 'header';
+@import 'toptitle';
+@import 'source';
+@import 'listennowbutton';
+@import 'middlecontainer';
+@import 'storycards';
+@import 'text_cards';
+@import 'listenbutton';
+@import 'arrows';
+@import 'notice';
+@import 'logo';
+@import 'time';
+
+@font-face {
+  font-family: "weather";
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: $font-family_1;
+  color: $color_1;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://media2.wnyc.org/i/800/0/c/80/1/aleppo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.main {
+  padding: 50px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.bottom-section {
+  padding: 35px 0;
+  position: fixed;
+  bottom: 0;
+}

@@ -1,0 +1,16 @@
+#logo-section {
+  left: 4%;
+  ul {
+    list-style-type: none;
+    margin-top: 5px;
+    width: 100%;
+    max-width: 600px;
+  }
+  li {
+    margin-right: 10px;
+  }
+  a {
+    font-size: 16px;
+    color: $color_1;
+  }
+}

@@ -1,0 +1,28 @@
+.button {
+  margin-top: 20px;
+  width: 156px;
+  height: 44px;
+  border-radius: 25px;
+  border: 2px solid #ffffff;
+  background: #128cf4;
+  cursor: pointer;
+  background-color: Transparent;
+  transition: width 0.2s cubic-bezier(0.17, 0.89, 0.39, 1.25), opacity 250ms, background-color 250ms, border-color 250ms, color 250ms;
+  overflow: hidden;
+  font-size: 16px;
+  letter-spacing: 0.6px;
+  padding: 3px 18px 3px 13px;
+  font-size: 1rem;
+  color: $color_1;
+  border-color: rgba(136, 136, 136, 0.8);
+  &:hover {
+    color: $color_1;
+    border-color: #fff;
+  }
+}
+.text--small {
+  font-color: #fff;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  opacity: 0.7;
+}

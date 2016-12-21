@@ -1,0 +1,17 @@
+
+{
+  "name": "WNYC-Chrome-Tab",
+  "version": "0.0.1",
+  "description": "Learning Grunt and Sass",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "latest",
+    "grunt": "~0.4.5",
+    "grunt-contrib-cssmin": "latest",
+    "grunt-contrib-sass": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-postcss": "^0.8.0"
+  }
+
+}

@@ -9,7 +9,7 @@
 
     "browser_action": {
         "default_icon": "not_yet_decided.png",
-        "default_title": "Topstories"
+        "default_title": "Topstories_WNYC"
     },
 
     "content_scripts": [
